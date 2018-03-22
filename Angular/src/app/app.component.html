@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-lg-3"></div>
+  <div class="col-lg-6 center-div">
+    <div class="row">
+      <h4>
+        <b>Please type your message:</b>
+      </h4>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-4">
+        <h4>Message </h4>
+        <ul style="padding:0">
+          <li *ngFor="let message of value"> #{{message.Id}} - {{message.Message}}</li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <input type="text" class="form-control" #message (keyup.enter)="onEnter(message.value)" placeholder="Message">
+      </div>
+      <div class="col-lg-2"></div>
+    </div>
+
+  </div>
+  <div class="col-lg-3"></div>
+</div>

@@ -1,0 +1,17 @@
+body
+{
+  background-color: #fcfcfc;
+}
+.center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 10rem;
+  right: 0;
+  padding: 5rem;
+  /* bottom:20rem; */
+  left: 0;
+
+  background-color: #edeff3;
+  border-radius: 1px;
+}
